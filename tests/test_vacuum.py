@@ -6,6 +6,7 @@ from unittest.mock import AsyncMock, MagicMock, patch
 
 import pytest
 from homeassistant.components.vacuum import VacuumActivity
+from homeassistant.exceptions import HomeAssistantError
 
 from custom_components.robovac_mqtt.const import (
     EUFY_CLEAN_CLEAN_SPEED,
